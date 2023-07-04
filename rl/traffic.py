@@ -191,4 +191,3 @@ class Car:
               (fry >= ((self.py - self.sy - y0) * sh))
 
         return (frx[:, np.newaxis] * fry[np.newaxis, :])*1.0
-    
